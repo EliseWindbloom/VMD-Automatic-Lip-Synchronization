@@ -18,7 +18,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 
 2. **On the Miku Miku Moving zip file, Right click -> Properties -> click on unblock. Do this to Lipsyncloid plugin zip file and VMDConverter zip file as well(this will keep windows from blocking things like the dlls).**
 
-3. Unzip Miku Miku Moving and VMDConverter. In VMDConverter folder, copy "LipSynchloid_v021.dll" to "MikuMikuMoving64_v*\Plugins\" folder. Then copy "\VMDConverter\VMDConverter.exe" to the "\VMDConverter\\" folder within the project.
+3. Unzip Miku Miku Moving and VMDConverter. In VMDConverter folder, copy "LipSynchloid_v021.dll" to "MikuMikuMoving64_v*\Plugins\\" folder. Then copy "\VMDConverter\VMDConverter.exe" to the "\VMDConverter\\" folder within the project.
 
 4. Unzip ffmpeg and copy "ffmpeg.exe" from "ffmpeg-2024-05-15-git-7b47099bc0-essentials_build\bin\" folder to "VMD-Automatic-Lip-Synchronization" project folder. It should now be in the same folder as the au3 file.
 
