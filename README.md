@@ -24,7 +24,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 
 5. Unzip Autoit and run "autoit-v3-setup.exe" and go through the wizard to install.
 
-6. Run "UVR_v*_setup_*.exe" and go through wizard to install Ultimate Vocal Remover.
+6. Run "UVR_v*_setup*.exe" and go through wizard to install Ultimate Vocal Remover.
 
 ## Convert audio file to optimized, lip-synced VMD
 
