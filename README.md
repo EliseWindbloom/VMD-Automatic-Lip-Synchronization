@@ -41,7 +41,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
     - Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
     - Click the Export button to save it as a VMD (a "Completed" message should popup).
 4. Run "**VMD Lips clean & optimize v\*.au3**" and select the VMD file. This will clean/optimize the file. Wait for it to convert, then a completed message should appear.
-5. Complete! The final vmd lipsync file should be the **"\*_cleaned.vmd"**. 
+5. Complete! The final vmd lipsync file should be the one with **"\*_cleaned.vmd"**. 
 
 ## Credits
 This repository was inspired by the original automatic lipsync guide by [Vayanis](https://www.youtube.com/watch?v=ozKBYGiyPJE)
