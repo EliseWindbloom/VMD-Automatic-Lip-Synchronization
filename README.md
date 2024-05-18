@@ -44,4 +44,4 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 5. Complete! The final vmd lipsync file should be the **"\*_cleaned.vmd"**. 
 
 ## Credits
-This repository was inspirted by the original automatic lipsync guide by [Vayanis](https://www.youtube.com/watch?v=ozKBYGiyPJE)
+This repository was inspired by the original automatic lipsync guide by [Vayanis](https://www.youtube.com/watch?v=ozKBYGiyPJE)
