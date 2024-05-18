@@ -14,7 +14,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 
 ## Setup
 
-1. Download this repository (Click "Code" button -> Download Zip, or alternately use git) and unzip it on your pc.
+1. Download this repository (Click "Code" button -> Download Zip, or alternately use git) and unzip it on your pc. Download the files in the Requirements section of this ReadMe.
 
 2. **On the Miku Miku Moving zip file, Right click -> Properties -> click on unblock. Do this to Lipsyncloid plugin zip file and VMDConverter zip file as well(this will keep windows from blocking things like the dlls).**
 
