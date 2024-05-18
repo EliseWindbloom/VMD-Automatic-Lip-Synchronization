@@ -1,7 +1,7 @@
 # VMD-Automatic-Lip-Synchronization
-Helps automate the process of converting an audio file to lip synced vmd
+Helps automate the process of converting an audio file to cleaned lip synced vmd
 
-![export_settings](img/export_motion_settings.png)
+![lipsync](img/vmd_auto_lipsync.png)
 
 ## Requirements
 
@@ -34,11 +34,10 @@ Helps automate the process of converting an audio file to lip synced vmd
 4. Click on "LipSynchloid 64Bit*" to convert your audio to lipsync data (this may take a moment to convert, then a message should popup).
 5. Click on the "File" tab, then click on the "Export Motion" button.
 6. Uncheck "center" if it's checked, then expanded the first folder with japanese characters, then check "a", "i", "u", and "o". It should look like [THIS](img/export_motion_settings.png).
+7. Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
+8. click the Export button to save it as a VMD (a "Completed" message should popup).
+9. Run "VMD lips clean and optimize v*.au3" and select the VMD file. Wait for it to convert then a completed message should appear.
+10. Complete! The final vmd lipsync file should have "_cleaned.vmd".
 
-
-8. Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
-9. click the Export button to save it as a VMD (a "Completed" message should popup).
-10. Run "VMD lips clean and optimize v*.au3" and select the VMD file. Wait for it to convert then a completed message should appear.
-11. Complete! The final vmd lipsync file should have "_cleaned.vmd".
-
-
+## Credits
+This repository was inspirted by the original automatic lipsync guide by [Vayanis](https://www.youtube.com/watch?v=ozKBYGiyPJE)
