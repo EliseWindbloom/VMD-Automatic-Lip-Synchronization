@@ -1,5 +1,5 @@
 # VMD-Automatic-Lip-Synchronization
-Helps automatic the process of converting an audio file to lip synced vmd
+Helps automate the process of converting an audio file to lip synced vmd
 
 <h3>===Requirements==</h3>
 
