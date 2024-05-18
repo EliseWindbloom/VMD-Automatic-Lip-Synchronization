@@ -40,8 +40,8 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
     - Uncheck "center" if it's checked, then expanded the first folder with japanese characters, then check "a", "i", "u", and "o". It should look like [THIS](img/export_motion_settings.png).
     - Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
     - Click the Export button to save it as a VMD (a "Completed" message should popup).
-4. Run "**VMD lips clean and optimize v\*.au3**" and select the VMD file. This will clean/optimize the file. Wait for it to convert, then a completed message should appear.
-5. Complete! The final vmd lipsync file should be the **"\*_cleaned.vmd"**.
+4. Run "**VMD Lips clean & optimize v\*.au3**" and select the VMD file. This will clean/optimize the file. Wait for it to convert, then a completed message should appear.
+5. Complete! The final vmd lipsync file should be the **"\*_cleaned.vmd"**. 
 
 ## Credits
 This repository was inspirted by the original automatic lipsync guide by [Vayanis](https://www.youtube.com/watch?v=ozKBYGiyPJE)
