@@ -1,6 +1,8 @@
 # VMD-Automatic-Lip-Synchronization
 Helps automate the process of converting an audio file to lip synced vmd
 
+![export_settings](img/export_motion_settings.png)
+
 ## Requirements
 
 1. [Miku Miku Moving English](https://sites.google.com/site/mikumikumovingeng/) 
@@ -31,11 +33,12 @@ Helps automate the process of converting an audio file to lip synced vmd
 3. Drag & Drop your new audio file into MikuMikuMoving to load it, then click on the "Plugins" Tab.
 4. Click on "LipSynchloid 64Bit*" to convert your audio to lipsync data (this may take a moment to convert, then a message should popup).
 5. Click on the "File" tab, then click on the "Export Motion" button.
-6. Uncheck "center" if it's checked, then expanded the first folder with japanese characters, then check "a", "i", "u", and "o". It should look like this:
-![export settings](https://raw.githubusercontent.com/elisewindbloom/VMD-Automatic-Lip-Synchronization/main/img/export motion settings.png)
+6. Uncheck "center" if it's checked, then expanded the first folder with japanese characters, then check "a", "i", "u", and "o". It should look like [THIS](img/export_motion_settings.png).
+
+
 8. Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
 9. click the Export button to save it as a VMD (a "Completed" message should popup).
 10. Run "VMD lips clean and optimize v*.au3" and select the VMD file. Wait for it to convert then a completed message should appear.
 11. Complete! The final vmd lipsync file should have "_cleaned.vmd".
 
-![image test](img/export_motion_settings.png)
+
