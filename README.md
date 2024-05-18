@@ -1,21 +1,38 @@
 # VMD-Automatic-Lip-Synchronization
 Helps automate the process of converting an audio file to lip synced vmd
 
-<h3>===Requirements==</h3>
+## Requirements
 
-1. [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui/releases) (if you don't already have clean voice-only audio)
-2. [Miku Miku Moving English](https://sites.google.com/site/mikumikumovingeng/) 
+1. [Miku Miku Moving English](https://sites.google.com/site/mikumikumovingeng/) 
 3. [Lipsyncloid plugin for Miku Miku Moving by Nawota](https://www.nicovideo.jp/watch/sm22506025)
-4. [VMDConverter by Yumin](http://miku-challenge.seesaa.net/article/128759756.html)
+3. [VMDConverter by Yumin](http://miku-challenge.seesaa.net/article/128759756.html)
+4. [AutoIt](https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.zip)
 5. [FFMPEG for Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) (if not already installed on your pc)
+6. [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui/releases) (if you don't already have clean voice-only audio)
 
-<h3>===Setup==</h3>
+## Setup
 
 1. Download this repository (Click "Code" button -> Download Zip, or alternately use git) and unzip it on your pc
 
-2. On Miku Miku Moving zip file, Right click -> Properties -> click on unblock. Do this to Lipsyncloid plugin zipe file and VMDConverter zip file as well(this will keep windows from blocking things like dlls).
+2. <b>On Miku Miku Moving zip file, Right click -> Properties -> click on unblock. Do this to Lipsyncloid plugin zipe file and VMDConverter zip file as well(this will keep windows from blocking things like the dlls).</b>
 
-3. Unzip Miku Miku Moving and VMDConverter. In VMDConverter, 
+3. Unzip Miku Miku Moving and VMDConverter. In VMDConverter folder, copy "LipSynchloid_v021.dll" to "MikuMikuMoving64_v*\Plugins\" folder
 
-<h3>===Convert Audio File To optimized, lip synced VMD===<h3>
+4. Unzip ffmpeg and copy "ffmpeg.exe" from "ffmpeg-2024-05-15-git-7b47099bc0-essentials_build\bin\" folder to "VMD-Automatic-Lip-Synchronization" project folder. It should now be in the same folder as the au3 file
 
+5. Unzip Autoit and run "autoit-v3-setup.exe" and go through wizard to install
+
+6. Run "UVR_v*_setup_*.exe" and go through wizard to install Ultimate Vocal Remover
+
+## Convert Audio File To optimized, lip synced VMD
+
+1. Drag your audio file to "Audio To 48kHz 16bit wav.bat" to convert it to an encoded 48kHz 16bit wav that Lipsyncloid will accept.
+2. Open MikuMikuMoving(MMM), click "Load Model" button and select a MMD model (a model must be loaded for conversion to work. [MikuMikuDance also includes a default model here](https://drive.google.com/uc?id=1rzOO6DoECOsLxBRAGM5FjRz0bt7m9rub&export=download).)
+3. Drag & Drop your new audio file into MikuMikuMoving to load it, then click on the "Plugins" Tab.
+4. Click on "LipSynchloid 64Bit*" to convert your audio to lipsync data (this may take a moment to convert, then a message should popup).
+5. Click on the "File" tab, then click on the "Export Motion" button.
+6. Uncheck "center" if it's checked, then expanded the first folder with japanese characters, then check "a", "i", "u", and "o". It should look like this:
+7. Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
+8. click the Export button to save it as a VMD (a "Completed" message should popup).
+9. Run "VMD lips clean and optimize v*.au3" and select the VMD file. Wait for it to convert then a completed message should appear.
+10. Complete! The final vmd lipsync file should have "_cleaned.vmd".
