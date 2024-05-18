@@ -16,7 +16,7 @@ Helps automate the process of converting an audio file to cleaned lip synced vmd
 
 1. Download this repository (Click "Code" button -> Download Zip, or alternately use git) and unzip it on your pc.
 
-2. **On Miku Miku Moving zip file, Right click -> Properties -> click on unblock. Do this to Lipsyncloid plugin zip file and VMDConverter zip file as well(this will keep windows from blocking things like the dlls).**
+2. **On the Miku Miku Moving zip file, Right click -> Properties -> click on unblock. Do this to Lipsyncloid plugin zip file and VMDConverter zip file as well(this will keep windows from blocking things like the dlls).**
 
 3. Unzip Miku Miku Moving and VMDConverter. In VMDConverter folder, copy "LipSynchloid_v021.dll" to "MikuMikuMoving64_v*\Plugins\" folder. Then copy "\VMDConverter\VMDConverter.exe" to the "\VMDConverter\\" folder within the project.
 
