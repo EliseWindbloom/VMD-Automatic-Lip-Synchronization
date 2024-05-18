@@ -26,7 +26,7 @@ Helps automate the process of converting an audio file to cleaned lip synced vmd
 
 6. Run "UVR_v*_setup_*.exe" and go through wizard to install Ultimate Vocal Remover.
 
-## Convert Audio File To optimized, lip synced VMD
+## Convert audio file to optimized, lip-synced VMD
 
 1. *(optional)* Open **"Ultimate Vocal Remover"** if your audio contains more than just the voice.
     - Click "Select Input" and choose your audio file. Then click on "Select Output" to choose your save folder
