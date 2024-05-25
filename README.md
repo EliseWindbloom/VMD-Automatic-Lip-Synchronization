@@ -4,7 +4,9 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 ![lipsync](img/vmd_auto_lipsync.png)
 
 ## Video Tutorial
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4Fnxsbt0DhE/0.jpg)](https://www.youtube.com/watch?v=4Fnxsbt0DhE)
+- Video Tutorial "[_MMD Automatic Lipsync to Audio File Tutorial_](https://youtu.be/4Fnxsbt0DhE)":
+  
+  [<img src=img/audio_to_vmd_yt_270p.png width=480 alt=" MMD Automatic Lipsync to Audio File Tutorial ">](https://youtu.be/4Fnxsbt0DhE)
 
 ## Requirements
 
