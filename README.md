@@ -3,6 +3,9 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 
 ![lipsync](img/vmd_auto_lipsync.png)
 
+## Video Tutorial
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4Fnxsbt0DhE/0.jpg)](https://www.youtube.com/watch?v=4Fnxsbt0DhE)
+
 ## Requirements
 
 1. [Miku Miku Moving English](https://sites.google.com/site/mikumikumovingeng/) 
