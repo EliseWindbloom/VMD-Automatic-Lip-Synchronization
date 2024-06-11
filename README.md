@@ -39,7 +39,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
     - Click "Start Processing" to create a voice-only wave file.
 2. Drag your audio file to **"Audio To 48kHz 16bit wav.bat"** to convert it to an encoded 48kHz 16bit wav file that Lipsyncloid will accept.
 3. Open **MikuMikuMoving**.
-    - Click "Load Model" button and select a **DEFAULT MMD model** (DEFAULT meaning a MMD model that came with MikuMikuDance, as custom models might have different bones. A model must be loaded for the conversion to work. [MikuMikuDance also includes default models here](https://drive.google.com/uc?id=1rzOO6DoECOsLxBRAGM5FjRz0bt7m9rub&export=download).
+    - Click "Load Model" button and select a **DEFAULT MMD model** (DEFAULT meaning a MMD model that came with MikuMikuDance, as custom models might have different bones. A model must be loaded for the conversion to work. [You can download MikuMikuDance which comes with the DEFAULT MMD models here](https://drive.google.com/uc?id=1rzOO6DoECOsLxBRAGM5FjRz0bt7m9rub&export=download).
     - Drag & Drop your new audio file into MikuMikuMoving to load it, then click on the "Plugins" Tab.
     - Click on "LipSynchloid 64Bit*" to convert your audio to lipsync data (this may take a moment to convert, then a message should popup).
     - Click on the "File" tab, then click on the "Export Motion" button.
