@@ -1,6 +1,6 @@
-# VMD-Automatic-Lip-Synchronization
+# VMD-Automatic-Lip-Synchronization (Fast)
 Helps automate the process of converting an audio file to a cleaned lip synced vmd for MikuMikuDance/MikuMikuMoving.
-**Note this README is for the fast python version.**
+**Note, this README is for the fast version using python.**
 
 ![lipsync](img/vmd_auto_lipsync.png)
 
