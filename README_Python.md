@@ -1,5 +1,6 @@
 # VMD-Automatic-Lip-Synchronization
-Helps automate the process of converting an audio file to a cleaned lip synced vmd for MikuMikuDance/MikuMikuMoving
+Helps automate the process of converting an audio file to a cleaned lip synced vmd for MikuMikuDance/MikuMikuMoving.
+**Note this README is for the fast python version.**
 
 ![lipsync](img/vmd_auto_lipsync.png)
 
@@ -13,7 +14,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 1. [Miku Miku Moving English](https://sites.google.com/site/mikumikumovingeng/) 
 3. [Lipsyncloid plugin for Miku Miku Moving by Nawota](https://www.nicovideo.jp/watch/sm22506025)
 3. [VMDConverter by Yumin](https://miku-challenge.up.seesaa.net/image/VMDConverter.zip)
-4. [AutoIt](https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.zip)
+4. [Python](https://www.python.org/downloads/windows/)
 5. [FFMPEG for Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) (if not already installed on your pc)
 6. [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui/releases) (if you don't already have clean voice-only audio)
 
@@ -27,7 +28,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 
 4. Unzip ffmpeg and copy "ffmpeg.exe" from "ffmpeg-2024-05-15-git-7b47099bc0-essentials_build\bin\" folder to "VMD-Automatic-Lip-Synchronization" folder. It should now be in the same folder as the au3 file.
 
-5. Unzip Autoit and run "autoit-v3-setup.exe" and go through the wizard to install.
+5. Run the python exe and go through the wizard to install python.
 
 6. Run "UVR_v*_setup*.exe" and go through the wizard to install Ultimate Vocal Remover.
 
@@ -46,7 +47,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
     - Uncheck "center" if it's checked, then expanded the first folder with japanese characters, then check "a", "i", "u", and "o". It should look like [THIS](img/export_motion_settings.png).
     - Make sure "VMD File" radio button is selected, then click on the "..." next to "Output File" and choose save location/name.
     - Click the Export button to save it as a VMD (a "Completed" message should popup).
-4. Run "**VMD Lips clean & optimize v\*.au3**" and select the VMD file. This will clean/optimize the file. Wait for it to convert, then a completed message should appear.
+4. Run "**VMD Lips clean & optimize v\*.py**" and select the VMD file. This will clean/optimize the file. Wait for it to convert, then a completed message should appear.
 5. Complete! The final vmd lipsync file should be the one with **"\*_cleaned.vmd"**. 
 
 ## Credits
