@@ -2,22 +2,6 @@
 chcp 65001 > nul
 setlocal enabledelayedexpansion
 
-echo Checking Python installation...
-python --version
-if %errorlevel% neq 0 (
-    echo Python not found in PATH. Checking common locations...
-    set PYTHON_PATHS="C:\Python310\python.exe" "C:\Program Files\Python310\python.exe" "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python310\python.exe"
-    for %%p in (%PYTHON_PATHS%) do (
-        if exist %%p (
-            set PYTHON=%%p
-            goto :found_python
-        )
-    )
-    echo Error: Python not found. Please install Python 3.10 or later and add it to PATH.
-    pause
-    exit /b 1
-)
-
 :found_python
 if not defined PYTHON set PYTHON=python
 
