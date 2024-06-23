@@ -14,7 +14,7 @@ Helps automate the process of converting an audio file to a cleaned lip synced v
 ## Requirements
 
 1. [Miku Miku Moving English](https://sites.google.com/site/mikumikumovingeng/) 
-3. [Lipsyncloid plugin for Miku Miku Moving by Nawota](https://bowlroll.net/file/29218)(pass:pakupaku) [Source](https://www.nicovideo.jp/watch/sm22506025)
+3. [Lipsyncloid plugin for Miku Miku Moving by Nawota](https://bowlroll.net/file/29218) (pass:pakupaku) [source](https://www.nicovideo.jp/watch/sm22506025)
 3. [VMDConverter by Yumin](https://miku-challenge.up.seesaa.net/image/VMDConverter.zip)
 4. [Python](https://www.python.org/downloads/windows/)
 5. [FFMPEG for Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) (if not already installed on your pc)
