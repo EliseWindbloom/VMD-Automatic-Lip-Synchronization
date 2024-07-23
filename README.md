@@ -1,4 +1,4 @@
-# VMD-Semi-Automatic-Lip-Sync
+# VMD Semi-Automatic LipSync
 ## This project is now outdated, please use the completely automatic [audio2vmd](https://github.com/EliseWindbloom/audio2vmd) instead.
 
 Helps automate the process of converting an audio file to a cleaned lip synced vmd for MikuMikuDance/MikuMikuMoving. **[Click here for the newer guide that uses python instead for super fast cleaning/optimizing](README_Python.md)**.
